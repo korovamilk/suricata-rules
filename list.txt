@@ -1,4 +1,4 @@
-Suricata Disabled Rules
+Suricata Enabled Rules
 -----------------------
 
 decoder-events > all except:
