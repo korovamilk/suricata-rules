@@ -15,7 +15,6 @@ emerging-tor <<< use a list for this
 emerging-netbios <<< Accessing netbios over the internet is considered as being one of the 3 worst mistakes in your life. Please set up *at least* a vpn (ssh tunnel/normal vpn) if you are stubborn and still wish to make this mistake.
 -----------------------------------
 
-
 The following categories should be enabled.
 Exceptions are listed under the category.
 --- after the category's name means blank at time of writing
