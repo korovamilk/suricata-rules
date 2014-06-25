@@ -43,7 +43,7 @@ emerging-chat > all except:
 2002025 ET CHAT IRC JOIN command <<< breaks IRC
 #2002027 ET CHAT IRC PING command <<< breaks IRC
 #2002028 ET CHAT IRC PONG response <<< breaks IRC
-2002026 ET CHAT IRC PRIVMSG command <<< breaks IRC
+#2002026 ET CHAT IRC PRIVMSG command <<< breaks IRC
 >>DISABLED:23
 
 DO NOT USE! emerging-ciarmy <<< use list
