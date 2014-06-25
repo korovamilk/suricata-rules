@@ -313,8 +313,8 @@ emerging-scada > all
 >>>DISABLED:0
 
 emerging-scan > all except:
-
->>>DISABLED:0
+2000540 ET SCAN NMAP -sA (2) <<< googlebot
+>>>DISABLED:1
 
 emerging-shellcode > all except:
 2012510 ET SHELLCODE UTF-8/16 Encoded Shellcode <<< random alerts on good sites
@@ -379,7 +379,8 @@ emerging-web_server > all except:
 2015526 ET WEB_SERVER Fake Googlebot UA 1 Inbound <<< fires up on googlebot. *ding* *ding* *ding* YOU are CORRECT sir DELETE UPSTREAM. I would like to take a few moments and remind everyone the years I've spent trying to get this rule deleted. It's an obvious fail of the rule maintainer and he is just too embarassed to admit it.
 2009151 ET WEB_SERVER PHP Generic Remote File Include Attempt (HTTP) <<< obvious
 2012997 ET WEB_SERVER PHP Possible http Remote File Inclusion Attempt <<< obvious
->>>DISABLED:4
+2101201 GPL WEB_SERVER 403 Forbidden <<< *facepalm* *sigh* Some rule writers/maintainers have the false impression that writing "1337" rules makes them look smart. It doesn't. It makes them look like 6 year olds. HINT: Detecting a >>>>SINGLE<<<< 403 error is an insult to my intelligence. I'm personally offended by this rule. At least make it a rapid 403 error rule.
+>>>DISABLED:5
 
 emerging-web_specific_apps > all except:
 2010890 ET WEB_SPECIFIC_APPS phpBB3 registration (Step1 GET)
@@ -402,7 +403,7 @@ http-events > all except
 2221000 SURICATA HTTP unknown error <<< breaks windows updates
 2221001 SURICATA HTTP gzip decompression failed <<< can't remember, I *think* akamai
 2221010 SURICATA HTTP unable to match response to request <<< random false positives on good sites
->>> DISABLED:2
+>>> DISABLED:3
 
 smtp-events > all
 2220008 SURICATA SMTP data command rejected
