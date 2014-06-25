@@ -1,54 +1,49 @@
 Suricata Enabled Rules
-----------------------------------
+-----------------------------------
 
+"DO NOT USE!" categories moved here
+-----------------------------------
+emerging-botcc <<< use list
+emerging-botcc.portgrouped <<< use list
+emerging-ciarmy <<< use list
+emerging-compromised <<< use list
+emerging-drop <<< use list
+emerging-dshield <<< use list
+emerging-telnet <<< Telnet is bad for kittens. Please stop using it. If your multithousand $ networking device does not allow for ssh access to it, please slowly open the window and throw it as far away as you can. Then purchase a multidozen $ networking device that allows ssh access.
+emerging-tftp > all rules in this category are based on port 69. Can be easily taken care of by firewall rules not allowing incoming/outgoing traffic for port 69 and a custom suricata rule. No need to waste processing here. Technically tftp has no place on the internet. >>>At least<<< set up a vpn/tunnel to encrypt the traffic, make sure who you are talking to is who you want to talk to.
+emerging-tor <<< use a list for this
+emerging-netbios <<< Accessing netbios over the internet is considered as being one of the 3 worst mistakes in your life. Please set up *at least* a vpn (ssh tunnel/normal vpn) if you are stubborn and still wish to make this mistake.
+-----------------------------------
+
+
+The following categories should be enabled.
+Exceptions are listed under the category.
+--- after the category's name means blank at time of writing
+">>>DISABLED:" count allows you to scroll to the bottom of a category and easily check if you need to make changes.
+-----------------------------------
 decoder-events > all except:
 2200003 SURICATA IPv4 truncated packet <<< ***NOISE***
 2200029 SURICATA ICMPv6 unknown type <<< breaks IPv6 tunnels
-2200035 SURICATA TCP invalid option length <<< apple
 2200076 SURICATA ICMPv4 invalid checksum <<< default gateway
 2200079 SURICATA ICMPv6 invalid checksum <<< breaks sixxs's IPv6 tunnels
->>>DISABLED:5
+>>>DISABLED:4
 
 emerging-activex > all
 >>>DISABLED:0
 
-emerging-attack_responses > all
+emerging-attack_response > all
 >>>DISABLED:0
 
-DO NOT USE! > emerging-botcc <<< use list
-
-DO NOT USE! > emerging-botcc.portgrouped <<< use list
-
 emerging-chat > all except:
-2010784 ET CHAT Facebook Chat (send message)
-2010785 ET CHAT Facebook Chat (buddy list)
-2010786 ET CHAT Facebook Chat (settings)
-2010819 ET CHAT Facebook Chat using XMPP
-2002327 ET CHAT Google Talk (Jabber) Client Login
-2002334 ET CHAT Google IM traffic Jabber client sign-on
-2001241 ET CHAT MSN file transfer request
-2001242 ET CHAT MSN file transfer accept
-2001243 ET CHAT MSN file transfer reject
-2001682 ET CHAT MSN IM Poll via HTTP
-2002192 ET CHAT MSN status change
-2008289 ET CHAT Possible MSN Messenger File Transfer
-2009375 ET CHAT General MSN Chat Activity
-2009376 ET CHAT MSN User-Agent Activity
-2001595 ET CHAT Skype VOIP Checking Version (Startup)
-#2002157 ET CHAT Skype User-Agent detected <<< obvious
-#2003022 ET CHAT Skype Bootstrap Node (udp) <<< breaks skype
-2000355 ET CHAT IRC authorization message <<< breaks IRC
+2002157 ET CHAT Skype User-Agent detected <<< obvious
+2003022 ET CHAT Skype Bootstrap Node (udp) <<< breaks skype
 2002023 ET CHAT IRC USER command <<< breaks IRC
 2002024 ET CHAT IRC NICK command <<< breaks IRC
 2002025 ET CHAT IRC JOIN command <<< breaks IRC
-#2002027 ET CHAT IRC PING command <<< breaks IRC
-#2002028 ET CHAT IRC PONG response <<< breaks IRC
-#2002026 ET CHAT IRC PRIVMSG command <<< breaks IRC
->>DISABLED:23
-
-DO NOT USE! emerging-ciarmy <<< use list
-
-DO NOT USE! emerging-compromised <<< use list
+2002027 ET CHAT IRC PING command <<< breaks IRC
+2002028 ET CHAT IRC PONG response <<< breaks IRC
+2002026 ET CHAT IRC PRIVMSG command <<< breaks IRC
+>>DISABLED:8
 
 emerging-current_events > all except:
 2014527 ET CURRENT_EVENTS Exploit Kit Delivering Compressed Flash Content to Client <<< Tired of manually cleaning up after this one.
@@ -64,10 +59,6 @@ emerging-dns > all except:
 
 emerging-dos > all
 >>>DISABLED:0
-
-DO NOT USE! emerging-drop <<< use list
-
-DO NOT USE! emerging-dshield <<< use list
 
 emerging-exploit > all except:
 2001058 ET EXPLOIT libpng tRNS overflow attempt
@@ -330,12 +321,6 @@ emerging-snmp > all
 emerging-sql > all
 >>>DISABLED:0
 
-DO NOT USE! emerging-telnet <<< Telnet is bad for kittens. Please stop using it. If your multithousand $ networking device does not allow for ssh access to it, please slowly open the window and throw it as far away as you can. Then purchase a multidozen $ networking device that allows ssh access.
-
-DO NOT USE! emerging-tftp > all rules in this category are based on port 69. Can be easily taken care of by firewall rules not allowing incoming/outgoing traffic for port 69 and a custom suricata rule. No need to waste processing here. Technically tftp has no place on the internet. >>>At least<<< set up a vpn/tunnel to encrypt the traffic, make sure who you are talking to is who you want to talk to.
-
-DO NOT USE! emerging-tor <<< use a list for this
-
 emerging-trojan > all except:
 2009205 ET TROJAN Possible Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 1) <<< breaks viber
 2009206 ET TROJAN Possible Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 4) <<< breaks viber
@@ -436,5 +421,3 @@ tls-events > all except
 2230003 SURICATA TLS invalid handshake message <<< breaks viber
 2230009 SURICATA TLS error message encountered <<< microsoft
 >>>DISABLED:3
-
-DO NOT USE!!! emerging-netbios <<< Accessing netbios over the internet is considered as being one of the 3 worst mistakes in your life. Please set up *at least* a vpn (ssh tunnel/normal vpn) if you are stubborn and still wish to make this mistake.
