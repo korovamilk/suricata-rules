@@ -178,7 +178,7 @@ emerging-policy > all except:
 2001975 ET POLICY SSHv2 Server KEX Detected on Expected Port
 2001976 ET POLICY SSHv2 Client KEX Detected on Expected Port
 2001977 ET POLICY SSHv2 Client New Keys detected on Expected Port
-*2001978 ET POLICY SSH session in progress on Expected Port <<< obvious
+#2001978 ET POLICY SSH session in progress on Expected Port <<< obvious
 2001979 ET POLICY SSH Server Banner Detected on Unusual Port
 2001980 ET POLICY SSH Client Banner Detected on Unusual Port
 2001981 ET POLICY SSHv2 Server KEX Detected on Unusual Port
