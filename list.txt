@@ -13,6 +13,8 @@ emerging-telnet <<< Telnet is bad for kittens. Please stop using it. If your mul
 emerging-tftp > all rules in this category are based on port 69. Can be easily taken care of by firewall rules not allowing incoming/outgoing traffic for port 69 and a custom suricata rule. No need to waste processing here. Technically tftp has no place on the internet. >>>At least<<< set up a vpn/tunnel to encrypt the traffic, make sure who you are talking to is who you want to talk to.
 emerging-tor <<< use a list for this
 emerging-netbios <<< Accessing netbios over the internet is considered as being one of the 3 worst mistakes in your life. Please set up *at least* a vpn (ssh tunnel/normal vpn) if you are stubborn and still wish to make this mistake.
+emerging-rbn-malvertisers <<< no longer maintained
+emerging-rbn <<< no longer maintained
 -----------------------------------
 
 The following categories should be enabled.
