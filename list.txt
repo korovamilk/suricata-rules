@@ -161,9 +161,7 @@ emerging-policy > all except:
 2013504 ET POLICY GNU/Linux APT User-Agent Outbound likely related to package management <<< obvious
 2013505 ET POLICY GNU/Linux YUM User-Agent Outbound likely related to package management <<< obvious
 2015878 ET POLICY Maxmind geoip check to /app/geoip.js <<< obvious
-2001980 ET POLICY SSH Client Banner Detected on Unusual Port <<< See forum post. There's so many things wrong about this rule, a worldwide ban should come into use. I strongly believe the rule maintainer should be treated as a terrorist, and put through trial for crimes against humanity.
-2001984 ET POLICY SSH session in progress on Unusual Port <<< the rule maintainer's MO is the same as rule 2001980.
->>>DISABLED:36
+>>>DISABLED:34
 
 emerging-pop3 > all
 >>>DISABLED:0
