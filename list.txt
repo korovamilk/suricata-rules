@@ -162,7 +162,8 @@ emerging-policy > all except:
 2013505 ET POLICY GNU/Linux YUM User-Agent Outbound likely related to package management <<< obvious
 2015878 ET POLICY Maxmind geoip check to /app/geoip.js <<< obvious
 2012647 ET POLICY Dropbox.com Offsite File Backup in Use <<< obvious
->>>DISABLED:36
+2003597 ET POLICY Google Calendar in Use <<< obvious
+>>>DISABLED:37
 
 emerging-pop3 > all
 >>>DISABLED:0
