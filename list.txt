@@ -163,7 +163,8 @@ emerging-policy > all except:
 2015878 ET POLICY Maxmind geoip check to /app/geoip.js <<< obvious
 2012647 ET POLICY Dropbox.com Offsite File Backup in Use <<< obvious
 2003597 ET POLICY Google Calendar in Use <<< obvious
->>>DISABLED:37
+2011854 ET POLICY Java JAR file download <<< obvious
+>>>DISABLED:38
 
 emerging-pop3 > all
 >>>DISABLED:0
