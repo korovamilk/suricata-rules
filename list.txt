@@ -142,6 +142,7 @@ emerging-policy > all except:
 2003006 ET POLICY TLS/SSL Client Key Exchange on Unusual Port <<< playstore
 2003012 ET POLICY TLS/SSL Server Certificate Exchange on Unusual Port <<< Fires up on play store. UPDATE UPSTREAM. EXCLUDE PORT 5228
 2002828 ET POLICY Googlebot User Agent <<< breaks googlebot
+2002829 ET POLICY Googlebot Crawl <<< *screaming at the top of my lungs* GOOGLE IS COMING!!!LOCK THE GATES!!!GOOGLE IS COMING!!!ZOMG!1elevenonehundredandeleven!GOOGLE IS COMING!!!!. *normal voice* who the hell writes these rules???
 2002830 ET POLICY Msnbot User Agent <<< breaks bingbot
 2010228 ET POLICY Suspicious Microsoft Windows NT 6.1 User-Agent Detected <<< so WTF is windows 7 then??? DELETE UPSTREAM
 2002948 ET POLICY External Windows Update in Progress <<< breaks windows updates
