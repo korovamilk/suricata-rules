@@ -82,11 +82,12 @@ emerging-icmp_info > !!! CARE !!! THESE ARE INFORMATIONAL RULES. EXPECT A LOT OF
 2100399 GPL ICMP_INFO Destination Unreachable Host Unreachable <<< obvious
 2100401 GPL ICMP_INFO Destination Unreachable Network Unreachable <<< obvious
 2100402 GPL ICMP_INFO Destination Unreachable Port Unreachable <<< obvious
+2100404 GPL ICMP_INFO Destination Unreachable Protocol Unreachable <<< obvious
 2100408 GPL ICMP_INFO Echo Reply <<< obvious
 2100485 GPL ICMP_INFO Destination Unreachable Communication Administratively Prohibited <<< obvious
 2100486 GPL ICMP_INFO Destination Unreachable Communication with Destination Host is Administratively Prohibited <<< obvious
 2100385 GPL ICMP_INFO traceroute <<< obvious
->>>DISABLED:8
+>>>DISABLED:9
 
 emerging-imap > all
 >>>DISABLED:0
