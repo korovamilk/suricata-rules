@@ -180,9 +180,10 @@ emerging-scada > all
 >>>DISABLED:0
 
 emerging-scan > all except:
+2000538 ET SCAN NMAP -sA (1) <<< googlebot
 2000540 ET SCAN NMAP -sA (2) <<< googlebot
 2011367 ET SCAN TCP Traffic (ET SCAN Malformed Packet SYN FIN) <<< microsoft
->>>DISABLED:2
+>>>DISABLED:3
 
 emerging-shellcode > all except:
 2012510 ET SHELLCODE UTF-8/16 Encoded Shellcode <<< random alerts on good sites
