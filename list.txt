@@ -237,7 +237,7 @@ emerging-web_client > all except
 2010931 ET WEB_CLIENT Possible IE iepeers.dll Use-after-free Code Execution Attempt <<< outdated rule
 2011764 ET WEB_CLIENT Possible Microsoft Internet Explorer mshtml.dll Timer ID Memory Pointer Information Disclosure Attempt <<< outdated rule
 2102925 GPL WEB_CLIENT web bug 0x0 gif attempt <<< ebay
->>>DISABLED:20
+>>>DISABLED:19
 
 emerging-web_server > all except:
 2101852 GPL WEB_SERVER robots.txt access <<< DELETE UPSTREAM!
