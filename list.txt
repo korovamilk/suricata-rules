@@ -189,7 +189,8 @@ emerging-scan > all except:
 emerging-shellcode > all except:
 2012510 ET SHELLCODE UTF-8/16 Encoded Shellcode <<< random alerts on good sites
 2012256 ET SHELLCODE Common 0c0c0c0c Heap Spray String <<< fires up when syncing debian mirror
->>>DISABLED:2
+2012086 ET SHELLCODE Possible Call with No Offset TCP Shellcode <<< fires up when syncing debian mirror
+>>>DISABLED:3
 
 emerging-smtp > all except:
 2100567 GPL SMTP SMTP relaying denied <<< obvious
