@@ -48,7 +48,8 @@ emerging-chat > all except:
 
 emerging-current_events > all except:
 2014527 ET CURRENT_EVENTS Exploit Kit Delivering Compressed Flash Content to Client <<< Tired of manually cleaning up after this one.
->>>DISABLED:1
+2012688 ET CURRENT_EVENTS Potential Blackhole Exploit Pack landing <<< fires up on verified clean sites
+>>>DISABLED:2
 
 emerging-deleted > ---
 
