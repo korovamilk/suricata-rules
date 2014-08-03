@@ -70,7 +70,8 @@ emerging-ftp > all except:
 2101377 GPL FTP wu-ftp bad file completion attempt <<< breaks filezilla
 2101378 GPL FTP wu-ftp bad file completion attempt with brace <<< breaks filezilla
 2010731 ET FTP FTP CWD command attempt without login <<< breaks filezilla
->>>DISABLED:3
+2100491 GPL FTP FTP Bad login <<< detects single bad login. Can lock out clients if you are a hosting company.
+>>>DISABLED:4
 
 emerging-games > all
 >>>DISABLED:0
