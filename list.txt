@@ -218,7 +218,8 @@ emerging-trojan > all except:
 emerging-user_agents > all except:
 2003394 ET USER_AGENTS User Agent Containing http Suspicious - Likely Spyware/Trojan <<< wordpress updates
 2010697 ET USER_AGENTS Suspicious User-Agent Beginning with digits - Likely spyware/trojan <<< apple
->>>DISABLED:2
+2009295 ET USER_AGENTS Suspicious Mozilla User-Agent Likely Fake (Mozilla/5.0) <<< yandex,firefox, icedove, various crawlers, the entire Internet, planet Mars... basically everything that exists out there.
+>>>DISABLED:3
 
 emerging-voip > all
 >>>DISABLED:0
