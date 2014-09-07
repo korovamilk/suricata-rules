@@ -75,7 +75,8 @@ emerging-games > all
 
 emerging-icmp > all except:
 2100448 GPL ICMP Source Quench undefined code <<< akamai
->>>DISABLED:1
+2100499 GPL ICMP Large ICMP Packet <<< Fires up from CARP IPv6 address to normal interface address.
+>>>DISABLED:2
 
 emerging-icmp_info > !!! CARE !!! THESE ARE INFORMATIONAL RULES. EXPECT A LOT OF FALSE POSITIVES! all except:
 2100384 GPL ICMP_INFO PING <<< obvious
