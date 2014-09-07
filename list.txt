@@ -73,8 +73,9 @@ emerging-ftp > all except:
 emerging-games > all
 >>>DISABLED:0
 
-emerging-icmp > all
->>>DISABLED:0
+emerging-icmp > all except:
+2100448 GPL ICMP Source Quench undefined code <<< akamai
+>>>DISABLED:1
 
 emerging-icmp_info > !!! CARE !!! THESE ARE INFORMATIONAL RULES. EXPECT A LOT OF FALSE POSITIVES! all except:
 2100384 GPL ICMP_INFO PING <<< obvious
