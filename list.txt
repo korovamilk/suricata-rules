@@ -173,7 +173,8 @@ emerging-policy > all except:
 2006408 ET POLICY HTTP Request on Unusual Port Possibly Hostile <<< breaks apt repository key import
 2013296 ET POLICY Free SSL Certificate Provider (StartCom Class 1 Primary Intermediate Server CA) <<< obvious
 2014726 ET POLICY Outdated Windows Flash Version IE <<< Technically a valid rule. Having your clients drop off the internet for failing to update their flash isn't valid though.
->>>DISABLED:44
+2018959 ET POLICY PE EXE or DLL Windows file download HTTP <<< windows updates
+>>>DISABLED:45
 
 emerging-pop3 > all
 >>>DISABLED:0
