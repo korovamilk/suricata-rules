@@ -217,7 +217,8 @@ emerging-trojan > all except:
 2009208 ET TROJAN Possible Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 16) <<< breaks viber
 2001046 ET TROJAN UPX compressed file download possible malware <<< driver downloads
 2016950 ET TROJAN Possible Win32/Hupigon ip.txt with a Non-Mozilla UA <<< breaks custom list update script
->>>DISABLED:6
+2009080 ET TROJAN VMProtect Packed Binary Inbound via HTTP - Likely Hostile <<< windows updates
+>>>DISABLED:7
 
 emerging-user_agents > all except:
 2003394 ET USER_AGENTS User Agent Containing http Suspicious - Likely Spyware/Trojan <<< wordpress updates
