@@ -174,7 +174,8 @@ emerging-policy > all except:
 2013296 ET POLICY Free SSL Certificate Provider (StartCom Class 1 Primary Intermediate Server CA) <<< obvious
 2014726 ET POLICY Outdated Windows Flash Version IE <<< Technically a valid rule. Having your clients drop off the internet for failing to update their flash isn't valid though.
 2018959 ET POLICY PE EXE or DLL Windows file download HTTP <<< windows updates
->>>DISABLED:45
+2007671 ET POLICY Binary Download Smaller than 1 MB Likely Hostile <<< windows updates
+>>>DISABLED:46
 
 emerging-pop3 > all
 >>>DISABLED:0
