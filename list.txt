@@ -175,7 +175,8 @@ emerging-policy > all except:
 2014726 ET POLICY Outdated Windows Flash Version IE <<< Technically a valid rule. Having your clients drop off the internet for failing to update their flash isn't valid though.
 2018959 ET POLICY PE EXE or DLL Windows file download HTTP <<< windows updates
 2007671 ET POLICY Binary Download Smaller than 1 MB Likely Hostile <<< windows updates
->>>DISABLED:46
+2003020 ET POLICY TLS/SSL Encrypted Application Data on Unusual Port <<< Google market. Possibly autoupdates. Must add Google market ports to exceptions. Update upstream
+>>>DISABLED:47
 
 emerging-pop3 > all
 >>>DISABLED:0
