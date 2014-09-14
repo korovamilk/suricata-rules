@@ -176,7 +176,8 @@ emerging-policy > all except:
 2018959 ET POLICY PE EXE or DLL Windows file download HTTP <<< windows updates
 2007671 ET POLICY Binary Download Smaller than 1 MB Likely Hostile <<< windows updates
 2003020 ET POLICY TLS/SSL Encrypted Application Data on Unusual Port <<< Google market. Possibly autoupdates. Must add Google market ports to exceptions. Update upstream
->>>DISABLED:47
+2001402 ET POLICY ZIPPED DOC in transit <<< obvious. Not so obvious when it fires up when syncing debian mirror
+>>>DISABLED:48
 
 emerging-pop3 > all
 >>>DISABLED:0
