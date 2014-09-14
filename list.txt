@@ -273,8 +273,8 @@ files > all except:
 1:1 FILEEXT JPG file claimed <<< obvious
 1:3 FILEEXT BMP file claimed <<< obvious
 1:6 FILESTORE jpg <<< obvious
-1:10 FILEMAGIC jpg(1)
-1:11 FILEMAGIC jpg(2)
+1:10 FILEMAGIC jpg(1) <<< obvious
+1:11 FILEMAGIC jpg(2) <<< obvious
 1:18 FILE magic -- windows <<< windows updates
 1:21 FILE tracking GIF (1x1 pixel) <<< breaks "good" sites. If you want internet, you better get used to tracking
 1:22 FILE pdf claimed, but not pdf <<< fires up when spiders (eg googlebot) try to download a part of a pdf, therefore DELETE UPSTREAM
