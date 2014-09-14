@@ -68,7 +68,8 @@ emerging-exploit > all except:
 emerging-ftp > all except:
 2010731 ET FTP FTP CWD command attempt without login <<< breaks filezilla
 2100491 GPL FTP FTP Bad login <<< detects single bad login. Can lock out clients if you are a hosting company.
->>>DISABLED:2
+2010735 ET FTP FTP PWD command attempt without login <<< fires up when filezilla processes a queue without you being connected to a server.
+>>>DISABLED:3
 
 emerging-games > all
 >>>DISABLED:0
