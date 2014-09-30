@@ -27,7 +27,8 @@ decoder-events > all except:
 2200029 SURICATA ICMPv6 unknown type <<< breaks IPv6 tunnels
 2200076 SURICATA ICMPv4 invalid checksum <<< default gateway
 2200079 SURICATA ICMPv6 invalid checksum <<< breaks sixxs's IPv6 tunnels
->>>DISABLED:4
+2100459 GPL ICMP unassigned type 1 undefined code <<< Orly? Type 1 = Destination unreachable. Codes 0-7. See RFC4443
+>>>DISABLED:5
 
 emerging-activex > all
 >>>DISABLED:0
