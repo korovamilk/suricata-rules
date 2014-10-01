@@ -182,7 +182,8 @@ emerging-policy > all except:
 2001402 ET POLICY ZIPPED DOC in transit <<< obvious. Not so obvious when it fires up when syncing debian mirror
 2001403 ET POLICY ZIPPED XLS in transit <<< obvious.
 2017015 ET POLICY DropBox User Content Access over SSL  <<< obvious
->>>DISABLED:50
+2009033 ET POLICY Suspicious Executable (Win exe under 128) <<< adobe flash player downloader
+>>>DISABLED:51
 
 emerging-pop3 > all
 >>>DISABLED:0
