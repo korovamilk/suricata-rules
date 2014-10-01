@@ -95,8 +95,9 @@ emerging-icmp_info > !!! CARE !!! THESE ARE INFORMATIONAL RULES. EXPECT A LOT OF
 emerging-imap > all
 >>>DISABLED:0
 
-emerging-inappropriate > all
->>>DISABLED:0
+emerging-inappropriate > all except:
+2001353 ET INAPPROPRIATE BDSM <<< ET guys have hit a new low on this one. It fired up while syncing a debian mirror, FFS. Either fire your damn rule writer, or write better rules!
+>>>DISABLED:1
 
 emerging-info > all except:
 2014472 ET INFO JAVA - Java Archive Download <<< obvious
