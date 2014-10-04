@@ -198,7 +198,8 @@ emerging-scan > all except:
 2000538 ET SCAN NMAP -sA (1) <<< googlebot
 2000540 ET SCAN NMAP -sA (2) <<< googlebot
 2011367 ET SCAN TCP Traffic (ET SCAN Malformed Packet SYN FIN) <<< microsoft
->>>DISABLED:3
+2002995 ET SCAN Rapid IMAPS Connections - Possible Brute Force Attack <<< happens when you have a lot of mailboxes
+>>>DISABLED:4
 
 emerging-shellcode > all except:
 2011803 ET SHELLCODE Possible TCP x86 JMP to CALL Shellcode Detected <<< akamai
