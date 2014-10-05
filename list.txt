@@ -114,8 +114,9 @@ emerging-info > all except:
 2017669 ET INFO Zip File <<< obvious
 >>>DISABLED:12
 
-emerging-malware > all
->>>DISABLED:0
+emerging-malware > all except:
+2008438 ET MALWARE Possible Windows executable sent when remote host claims to send a Text File  <<< akamai, drivers
+>>>DISABLED:1
 
 emerging-misc > all
 >>>DISABLED:0
