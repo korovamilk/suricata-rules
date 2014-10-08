@@ -185,7 +185,8 @@ emerging-policy > all except:
 2017015 ET POLICY DropBox User Content Access over SSL  <<< obvious
 2009033 ET POLICY Suspicious Executable (Win exe under 128) <<< adobe flash player downloader
 2000418 ET POLICY Executable and linking format (ELF) file download <<< freebsd iso download
->>>DISABLED:52
+2001375 ET POLICY Credit Card Number Detected in Clear (16 digit spaced) <<< freebsd iso download
+>>>DISABLED:53
 
 emerging-pop3 > all
 >>>DISABLED:0
