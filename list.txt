@@ -213,7 +213,8 @@ emerging-shellcode > all except:
 2100649 GPL SHELLCODE x86 setgid 0 <<< youtube, akamai
 648 GPL SHELLCODE x86 NOOP <<< freebsd iso download
 2101390 GPL SHELLCODE x86 inc ebx NOOP <<< freebsd iso download
->>>DISABLED:9
+2100651 GPL SHELLCODE x86 stealth NOOP <<< freebsd iso download
+>>>DISABLED:10
 
 emerging-smtp > all except:
 2100567 GPL SMTP SMTP relaying denied <<< obvious
