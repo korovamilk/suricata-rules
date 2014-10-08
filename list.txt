@@ -186,7 +186,8 @@ emerging-policy > all except:
 2009033 ET POLICY Suspicious Executable (Win exe under 128) <<< adobe flash player downloader
 2000418 ET POLICY Executable and linking format (ELF) file download <<< freebsd iso download
 2001375 ET POLICY Credit Card Number Detected in Clear (16 digit spaced) <<< freebsd iso download
->>>DISABLED:53
+2001379 ET POLICY Credit Card Number Detected in Clear (15 digit spaced) <<< freebsd iso download
+>>>DISABLED:54
 
 emerging-pop3 > all
 >>>DISABLED:0
