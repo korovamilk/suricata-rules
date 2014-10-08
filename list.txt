@@ -184,7 +184,8 @@ emerging-policy > all except:
 2001403 ET POLICY ZIPPED XLS in transit <<< obvious.
 2017015 ET POLICY DropBox User Content Access over SSL  <<< obvious
 2009033 ET POLICY Suspicious Executable (Win exe under 128) <<< adobe flash player downloader
->>>DISABLED:51
+2000418 ET POLICY Executable and linking format (ELF) file download <<< freebsd iso download
+>>>DISABLED:52
 
 emerging-pop3 > all
 >>>DISABLED:0
