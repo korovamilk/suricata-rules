@@ -272,7 +272,8 @@ emerging-web_client > all except
 2011764 ET WEB_CLIENT Possible Microsoft Internet Explorer mshtml.dll Timer ID Memory Pointer Information Disclosure Attempt <<< outdated rule
 2102925 GPL WEB_CLIENT web bug 0x0 gif attempt <<< ebay
 2103088 GPL WEB_CLIENT winamp .cda file name overflow attempt <<< debian mirror
->>>DISABLED:20
+2103192 GPL WEB_CLIENT Windows Media Player directory traversal via Content-Disposition attempt  <<< A rule about a vulnerability that was fixed in Windows XP SP2 (2003), firing up in 2014 is a bit too much, even for me.
+>>>DISABLED:21
 
 emerging-web_server > all except:
 2101852 GPL WEB_SERVER robots.txt access <<< DELETE UPSTREAM!
