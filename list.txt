@@ -187,7 +187,9 @@ emerging-policy > all except:
 2000418 ET POLICY Executable and linking format (ELF) file download <<< freebsd iso download
 2001375 ET POLICY Credit Card Number Detected in Clear (16 digit spaced) <<< freebsd iso download
 2001379 ET POLICY Credit Card Number Detected in Clear (15 digit spaced) <<< freebsd iso download
->>>DISABLED:54
+2002722 ET POLICY MP3 File Transfer Outbound <<< obvious
+2002723 ET POLICY MP3 File Transfer Inbound <<< obvious
+>>>DISABLED:56
 
 emerging-pop3 > all
 >>>DISABLED:0
