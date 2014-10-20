@@ -189,7 +189,12 @@ emerging-policy > all except:
 2001379 ET POLICY Credit Card Number Detected in Clear (15 digit spaced) <<< freebsd iso download
 2002722 ET POLICY MP3 File Transfer Outbound <<< obvious
 2002723 ET POLICY MP3 File Transfer Inbound <<< obvious
->>>DISABLED:56
+2011584 ET POLICY Vulnerable Java Version 1.4.x Detected <<< In a stroke of pure genius, ET have created a rule so that if java wants to auto update, the rule will fire up. PURE GENIUS!
+2011581 ET POLICY Vulnerable Java Version 1.5.x Detected <<< see above
+2011582 ET POLICY Vulnerable Java Version 1.6.x Detected <<< see above
+2014297 ET POLICY Vulnerable Java Version 1.7.x Detected <<< see above
+2019401 ET POLICY Vulnerable Java Version 1.8.x Detected <<< see above
+>>>DISABLED:61
 
 emerging-pop3 > all
 >>>DISABLED:0
