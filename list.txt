@@ -27,14 +27,14 @@ decoder-events > all except:
 2200029 SURICATA ICMPv6 unknown type <<< breaks IPv6 tunnels
 2200076 SURICATA ICMPv4 invalid checksum <<< default gateway
 2200079 SURICATA ICMPv6 invalid checksum <<< breaks sixxs's IPv6 tunnels
-2100459 GPL ICMP unassigned type 1 undefined code <<< Orly? Type 1 = Destination unreachable. Codes 0-7. See RFC4443
->>>DISABLED:5
+>>>DISABLED:4
 
 emerging-activex > all
 >>>DISABLED:0
 
-emerging-attack_response > all
->>>DISABLED:0
+emerging-attack_response > all except:
+2100498 GPL ATTACK_RESPONSE id check returned root <<< Based on plaintext value. False positive on http://planet.suricata-ids.org/
+>>>DISABLED:1
 
 emerging-chat > all except:
 2002157 ET CHAT Skype User-Agent detected <<< obvious
@@ -78,7 +78,8 @@ emerging-games > all
 emerging-icmp > all except:
 2100448 GPL ICMP Source Quench undefined code <<< akamai
 2100499 GPL ICMP Large ICMP Packet <<< Fires up from CARP IPv6 address to normal interface address.
->>>DISABLED:2
+2100459 GPL ICMP unassigned type 1 undefined code <<< Orly? Type 1 = Destination unreachable. Codes 0-7. See RFC4443
+>>>DISABLED:3
 
 emerging-icmp_info > !!! CARE !!! THESE ARE INFORMATIONAL RULES. EXPECT A LOT OF FALSE POSITIVES! all except:
 2100384 GPL ICMP_INFO PING <<< obvious
