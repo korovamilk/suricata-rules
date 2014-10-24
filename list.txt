@@ -45,7 +45,8 @@ emerging-chat > all except:
 2002027 ET CHAT IRC PING command <<< breaks IRC
 2002028 ET CHAT IRC PONG response <<< breaks IRC
 2002026 ET CHAT IRC PRIVMSG command <<< breaks IRC
->>DISABLED:8
+2001260 ET CHAT Yahoo IM message <<< debian mirror
+>>DISABLED:9
 
 emerging-current_events > all except:
 2014527 ET CURRENT_EVENTS Exploit Kit Delivering Compressed Flash Content to Client <<< Tired of manually cleaning up after this one.
