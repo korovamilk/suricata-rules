@@ -313,7 +313,8 @@ http-events > all except
 2221000 SURICATA HTTP unknown error <<< breaks windows updates
 2221001 SURICATA HTTP gzip decompression failed <<< can't remember, I *think* akamai
 2221010 SURICATA HTTP unable to match response to request <<< random false positives on good sites
->>> DISABLED:3
+2221022 SURICATA HTTP multipart generic error <<< detects client (browser) errors, random FPs.
+>>> DISABLED:4
 
 smtp-events > all
 2220008 SURICATA SMTP data command rejected
