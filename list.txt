@@ -227,7 +227,8 @@ emerging-shellcode > all except:
 2100651 GPL SHELLCODE x86 stealth NOOP <<< freebsd iso download
 653 GPL SHELLCODE x86 0x90 unicode NOOP <<< freebsd iso download
 2102314 GPL SHELLCODE x86 0x90 NOOP unicode <<< freebsd iso download
->>>DISABLED:12
+2013319 ET SHELLCODE Unicode UTF-8 Heap Spray Attempt  <<< debian mirror
+>>>DISABLED:13
 
 emerging-smtp > all except:
 2100567 GPL SMTP SMTP relaying denied <<< obvious
