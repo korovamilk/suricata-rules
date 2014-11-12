@@ -319,8 +319,9 @@ http-events > all except
 >>> DISABLED:4
 
 smtp-events > all
-2220008 SURICATA SMTP data command rejected
->>>DISABLED:1
+2220000 SURICATA SMTP invalid reply <<< known good clients
+2220008 SURICATA SMTP data command rejected <<< don't remember why...
+>>>DISABLED:2
 
 stream-events > disable all
 >>>DISABLED:50
