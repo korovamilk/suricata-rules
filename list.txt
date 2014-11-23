@@ -248,7 +248,8 @@ emerging-trojan > all except:
 2001046 ET TROJAN UPX compressed file download possible malware <<< driver downloads
 2016950 ET TROJAN Possible Win32/Hupigon ip.txt with a Non-Mozilla UA <<< breaks custom list update script
 2009080 ET TROJAN VMProtect Packed Binary Inbound via HTTP - Likely Hostile <<< windows updates
->>>DISABLED:7
+2019509 ET TROJAN JST Perl IrcBot download <<< Text based rule. Fires up on emergingthreats.net
+>>>DISABLED:8
 
 emerging-user_agents > all except:
 2003394 ET USER_AGENTS User Agent Containing http Suspicious - Likely Spyware/Trojan <<< wordpress updates
