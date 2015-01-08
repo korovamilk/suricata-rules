@@ -119,7 +119,8 @@ emerging-info > all except:
 
 emerging-malware > all except:
 2008438 ET MALWARE Possible Windows executable sent when remote host claims to send a Text File  <<< akamai, drivers
->>>DISABLED:1
+2012229 ET MALWARE Suspicious Chinese Content-Language zh-cn Which May be Malware Related <<< alibaba/aliexpress
+>>>DISABLED:2
 
 emerging-misc > all
 >>>DISABLED:0
