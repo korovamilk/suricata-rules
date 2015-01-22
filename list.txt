@@ -198,7 +198,8 @@ emerging-policy > all except:
 2011582 ET POLICY Vulnerable Java Version 1.6.x Detected <<< see above
 2014297 ET POLICY Vulnerable Java Version 1.7.x Detected <<< see above
 2019401 ET POLICY Vulnerable Java Version 1.8.x Detected <<< see above
->>>DISABLED:61
+2019240 ET POLICY Executable and linking format (ELF) file download Over HTTP <<< drivers/firmware
+>>>DISABLED:62
 
 emerging-pop3 > all
 >>>DISABLED:0
