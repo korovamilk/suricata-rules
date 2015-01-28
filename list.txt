@@ -51,9 +51,8 @@ emerging-chat > all except:
 2001260 ET CHAT Yahoo IM message <<< debian mirror
 >>DISABLED:9
 
-emerging-current_events > all except:
-2014527 ET CURRENT_EVENTS Exploit Kit Delivering Compressed Flash Content to Client <<< Tired of manually cleaning up after this one.
->>>DISABLED:1
+emerging-current_events > all
+>>>DISABLED:0
 
 emerging-deleted > ---
 
