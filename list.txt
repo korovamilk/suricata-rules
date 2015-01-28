@@ -29,6 +29,9 @@ decoder-events > all except:
 2200079 SURICATA ICMPv6 invalid checksum <<< breaks sixxs's IPv6 tunnels
 >>>DISABLED:4
 
+dns-events > all
+>>>DISABLED:0
+
 emerging-activex > all
 >>>DISABLED:0
 
