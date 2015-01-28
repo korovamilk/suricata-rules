@@ -314,9 +314,10 @@ files > all except:
 1:10 FILEMAGIC jpg(1) <<< obvious
 1:11 FILEMAGIC jpg(2) <<< obvious
 1:18 FILE magic -- windows <<< windows updates
+1:19 FILE tracking PNG (1x1 pixel) (1) <<< breaks "good" sites. If you want internet, you better get used to tracking
 1:21 FILE tracking GIF (1x1 pixel) <<< breaks "good" sites. If you want internet, you better get used to tracking
 1:22 FILE pdf claimed, but not pdf <<< fires up when spiders (eg googlebot) try to download a part of a pdf, therefore DELETE UPSTREAM
->>>DISABLED:8
+>>>DISABLED:9
 
 http-events > all except
 2221000 SURICATA HTTP unknown error <<< breaks windows updates
