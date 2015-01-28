@@ -45,9 +45,9 @@ emerging-chat > all except:
 2002023 ET CHAT IRC USER command <<< breaks IRC
 2002024 ET CHAT IRC NICK command <<< breaks IRC
 2002025 ET CHAT IRC JOIN command <<< breaks IRC
+2002026 ET CHAT IRC PRIVMSG command <<< breaks IRC
 2002027 ET CHAT IRC PING command <<< breaks IRC
 2002028 ET CHAT IRC PONG response <<< breaks IRC
-2002026 ET CHAT IRC PRIVMSG command <<< breaks IRC
 2001260 ET CHAT Yahoo IM message <<< debian mirror
 >>DISABLED:9
 
