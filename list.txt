@@ -226,14 +226,12 @@ emerging-shellcode > all except:
 2012088 ET SHELLCODE Possible Call with No Offset TCP Shellcode <<< fires up when syncing debian mirror
 2012252 ET SHELLCODE Common 0a0a0a0a Heap Spray String <<< fires up when syncing debian mirror
 2100649 GPL SHELLCODE x86 setgid 0 <<< youtube, akamai
-648 GPL SHELLCODE x86 NOOP <<< freebsd iso download
 2101390 GPL SHELLCODE x86 inc ebx NOOP <<< freebsd iso download
 2100651 GPL SHELLCODE x86 stealth NOOP <<< freebsd iso download
-653 GPL SHELLCODE x86 0x90 unicode NOOP <<< freebsd iso download
 2102314 GPL SHELLCODE x86 0x90 NOOP unicode <<< freebsd iso download
 2013319 ET SHELLCODE Unicode UTF-8 Heap Spray Attempt  <<< debian mirror
 2013222 ET SHELLCODE Excessive Use of HeapLib Objects Likely Malicious Heap Spray Attempt <<< dangerous rule based on cleartext HTTP. Fires up on known good sites when repeated occurences of *heap* is encountered.
->>>DISABLED:14
+>>>DISABLED:12
 
 emerging-smtp > all except:
 2100567 GPL SMTP SMTP relaying denied <<< obvious
