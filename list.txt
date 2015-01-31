@@ -200,7 +200,8 @@ emerging-policy > all except:
 2014297 ET POLICY Vulnerable Java Version 1.7.x Detected <<< see above
 2019401 ET POLICY Vulnerable Java Version 1.8.x Detected <<< see above
 2019240 ET POLICY Executable and linking format (ELF) file download Over HTTP <<< drivers/firmware
->>>DISABLED:61
+2019416 ET POLICY SSLv3 outbound connection from client vulnerable to POODLE attack <<< not everything can be upgraded, eg android phones. False positives
+>>>DISABLED:62
 
 emerging-pop3 > all
 >>>DISABLED:0
