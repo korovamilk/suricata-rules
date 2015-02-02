@@ -243,8 +243,9 @@ emerging-smtp > all except:
 emerging-snmp > all
 >>>DISABLED:0
 
-emerging-sql > all
->>>DISABLED:0
+emerging-sql > all except:
+2102329 GPL SQL probe response overflow attempt <<< DNS servers
+>>>DISABLED:1
 
 emerging-trojan > all except:
 2009205 ET TROJAN Possible Downadup/Conficker-C P2P encrypted traffic UDP Ping Packet (bit value 1) <<< breaks viber
