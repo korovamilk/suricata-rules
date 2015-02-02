@@ -27,10 +27,12 @@ decoder-events > all except:
 2200029 SURICATA ICMPv6 unknown type <<< breaks IPv6 tunnels
 2200076 SURICATA ICMPv4 invalid checksum <<< default gateway
 2200079 SURICATA ICMPv6 invalid checksum <<< breaks sixxs's IPv6 tunnels
->>>DISABLED:4
+2200075 SURICATA UDPv4 invalid checksum <<< DNS servers
+>>>DISABLED:5
 
-dns-events > all
->>>DISABLED:0
+dns-events > all except:
+2240003 SURICATA DNS malformed response data <<< DNS servers
+>>>DISABLED:1
 
 emerging-activex > all
 >>>DISABLED:0
