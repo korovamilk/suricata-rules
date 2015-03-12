@@ -235,7 +235,8 @@ emerging-shellcode > all except:
 2013319 ET SHELLCODE Unicode UTF-8 Heap Spray Attempt  <<< debian mirror
 2013222 ET SHELLCODE Excessive Use of HeapLib Objects Likely Malicious Heap Spray Attempt <<< dangerous rule based on cleartext HTTP. Fires up on known good sites when repeated occurences of *heap* is encountered.
 2100648 GPL SHELLCODE x86 NOOP <<< Downloading FreeBSD memstick image
->>>DISABLED:13
+2100653 GPL SHELLCODE x86 0x90 unicode NOOP <<< Downloading FreeBSD memstick image
+>>>DISABLED:14
 
 emerging-smtp > all except:
 2100567 GPL SMTP SMTP relaying denied <<< obvious
