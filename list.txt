@@ -1,5 +1,14 @@
 Suricata Enabled Rules
 -----------------------------------
+my disabled categories:
+emerging-games.rules
+emerging-inappropriate.rules
+emerging-netbios.rules
+emerging-policy.rules
+emerging-scada.rules
+emerging-telnet.rules
+emerging-tftp.rules
+-----------------------------------
 
 "DO NOT USE!" categories moved here
 -----------------------------------
